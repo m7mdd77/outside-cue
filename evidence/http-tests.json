@@ -1,0 +1,30 @@
+{
+  "measuredAt": "2026-10-07T09:41:54.844Z",
+  "passed": 6,
+  "cases": [
+    {
+      "name": "local ready status",
+      "passed": true
+    },
+    {
+      "name": "invalid request rejected",
+      "passed": true
+    },
+    {
+      "name": "remote origin rejected",
+      "passed": true
+    },
+    {
+      "name": "wrong content type rejected",
+      "passed": true
+    },
+    {
+      "name": "oversized body rejected",
+      "passed": true
+    },
+    {
+      "name": "actual local inference and street filter",
+      "passed": true
+    }
+  ]
+}

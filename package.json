@@ -1,0 +1,15 @@
+{
+  "name": "outside-cue",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "prepare:model": "node scripts/prepare-model.mjs",
+    "start": "node server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "test:live": "node scripts/evaluate.mjs",
+    "test:http": "node scripts/test-http.mjs"
+  },
+  "dependencies": { "@huggingface/transformers": "3.8.1" }
+}

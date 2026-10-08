@@ -1,0 +1,130 @@
+{
+  "measuredAt": "2026-10-07T15:13:24.142Z",
+  "modelId": "Xenova/all-MiniLM-L6-v2",
+  "remoteModelsAllowed": false,
+  "loadMs": 355.4665,
+  "passed": 6,
+  "total": 6,
+  "cases": [
+    {
+      "wish": "I want to notice interesting shapes in buildings",
+      "expected": "geometry",
+      "ranked": [
+        {
+          "id": "geometry",
+          "similarity": 0.5944665011292357
+        },
+        {
+          "id": "color",
+          "similarity": 0.3730036507659885
+        },
+        {
+          "id": "details",
+          "similarity": 0.34308745794834206
+        }
+      ],
+      "passed": true,
+      "inferenceMs": 4.46589999999992
+    },
+    {
+      "wish": "I would like to listen to the sounds around me",
+      "expected": "sound",
+      "ranked": [
+        {
+          "id": "sound",
+          "similarity": 0.5398489341496172
+        },
+        {
+          "id": "shadow",
+          "similarity": 0.23470188671641315
+        },
+        {
+          "id": "motion",
+          "similarity": 0.182626382587993
+        }
+      ],
+      "passed": true,
+      "inferenceMs": 3.2410999999999603
+    },
+    {
+      "wish": "I want to watch birds from a distance",
+      "expected": "bird",
+      "ranked": [
+        {
+          "id": "bird",
+          "similarity": 0.6725047204181668
+        },
+        {
+          "id": "sound",
+          "similarity": 0.45088874579715565
+        },
+        {
+          "id": "distance",
+          "similarity": 0.37602407249430325
+        }
+      ],
+      "passed": true,
+      "inferenceMs": 2.9332999999999174
+    },
+    {
+      "wish": "I want to notice leaves and the texture of tree bark",
+      "expected": "texture",
+      "ranked": [
+        {
+          "id": "texture",
+          "similarity": 0.7571813729277012
+        },
+        {
+          "id": "shadow",
+          "similarity": 0.33117078939501504
+        },
+        {
+          "id": "motion",
+          "similarity": 0.2817146264079142
+        }
+      ],
+      "passed": true,
+      "inferenceMs": 3.3495000000000346
+    },
+    {
+      "wish": "I want to look at clouds in the sky",
+      "expected": "sky",
+      "ranked": [
+        {
+          "id": "sky",
+          "similarity": 0.5809352809772853
+        },
+        {
+          "id": "shadow",
+          "similarity": 0.4834735036865893
+        },
+        {
+          "id": "motion",
+          "similarity": 0.47161341945564567
+        }
+      ],
+      "passed": true,
+      "inferenceMs": 3.3546000000001186
+    },
+    {
+      "wish": "I want to see colorful objects",
+      "expected": "color",
+      "ranked": [
+        {
+          "id": "color",
+          "similarity": 0.574392013939407
+        },
+        {
+          "id": "shadow",
+          "similarity": 0.4015150692485623
+        },
+        {
+          "id": "bird",
+          "similarity": 0.27730429665997525
+        }
+      ],
+      "passed": true,
+      "inferenceMs": 2.7618999999999687
+    }
+  ]
+}
